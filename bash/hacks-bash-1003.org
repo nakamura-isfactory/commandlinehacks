@@ -1,0 +1,13 @@
+* command
+#+BEGIN_EXAMPLE
+$ ipconfig
+$ ^p^f
+$ ifconfigz
+$ ^z
+#+END_EXAMPLE
+* 用法
+最後に実行したコマンドラインを文字列置換して実行する。
+^p^f → 文字列 p を文字列 f に置換する。
+^a  → 文字列 a を削除する。
+* 参考
+https://www.commandlinefu.com/commands/view/19/runs-previous-command-but-replacing

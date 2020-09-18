@@ -1,0 +1,8 @@
+* command
+#+BEGIN_EXAMPLE
+$ getconf LONG_BIT
+#+END_EXAMPLE
+* 用法
+32 ビットか 64 ビットか判別する。
+* 参考
+https://www.commandlinefu.com/commands/view/2940/32-bits-or-64-bits

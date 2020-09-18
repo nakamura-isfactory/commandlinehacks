@@ -1,0 +1,10 @@
+* command
+#+BEGIN_EXAMPLE
+$ Ctrl-X Ctrl-E
+#+END_EXAMPLE
+* 用法
+このコマンドを実行するとコマンドラインをエディタで編集する。
+どのエディタを起動するかは環境変数 EDITOR で指定可能。
+* 参考
+https://www.commandlinefu.com/commands/view/1446/rapidly-invoke-an-editor-to-write-a-long-complex-or-tricky-command
+

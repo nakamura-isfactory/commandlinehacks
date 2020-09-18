@@ -1,0 +1,18 @@
+* command
+#+BEGIN_EXAMPLE
+$ vim /etc/fstab  <Ctrl+U>
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+$ 
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+$ sudo <Ctrl+Y>
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+$ sudo vim /etc/fstab
+#+END_EXAMPLE
+* 用法
+Ctrl+U → コマンドラインにある文字列を全てキルする。
+Ctrl+Y → キルした文字列をヤンクする。
+* 参考
+https://www.commandlinefu.com/commands/view/6148/type-partial-command-kill-this-command-check-something-you-forgot-yank-the-command-resume-typing.

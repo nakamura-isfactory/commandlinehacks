@@ -1,6 +1,11 @@
 * command
 #+BEGIN_EXAMPLE
-sudo !!
+$ ls /var/log/httpd/
+$ sudo !!
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+$ ls /var/log/httpd/
+$ sudo ls /var/log/httpd/
 #+END_EXAMPLE
 * 用法
 sudo をつけて実行するべきコマンドを sudo をつけないで実行したときに、

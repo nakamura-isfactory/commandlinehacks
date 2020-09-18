@@ -1,0 +1,12 @@
+* command
+#+BEGIN_EXAMPLE
+$ mv filename.{old,new}
+$ cp filename.csv{,.bak}
+$ cp filename.txt{,_$(date +%F)}
+#+END_EXAMPLE
+* 用法
+filename.{old,new} は filename.old filename.new に置換される。
+filename.csv{,.bak} は filename.csv filename.csv.bak に置換される。
+filename.txt{,_$(date +%F)} は filename.txt filename.txt_2018-07-18 に置換される。
+* 参考
+https://www.commandlinefu.com/commands/view/1295/quickly-rename-a-file

@@ -1,0 +1,8 @@
+* command
+#+BEGIN_EXAMPLE
+
+#+END_EXAMPLE
+* 用法
+
+* 参考
+

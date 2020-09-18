@@ -1,0 +1,8 @@
+* command
+#+BEGIN_EXAMPLE
+$ ssh user@host cat /path/to/remotefile | diff /path/to/localfile -
+#+END_EXAMPLE
+* 用法
+リモートファイルをローカルファイルと比較する。
+* 参考
+https://www.commandlinefu.com/commands/view/47/compare-a-remote-file-with-a-local-file

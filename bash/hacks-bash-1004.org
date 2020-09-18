@@ -1,0 +1,13 @@
+* command
+#+BEGIN_EXAMPLE
+$ cp file.txt /var/www/wp-content/uploads/2009/03/
+$ cd <ESC> .
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+$ cp file.txt /var/www/wp-content/uploads/2009/03/
+$ cd /var/www/wp-content/uploads/2009/03/
+#+END_EXAMPLE
+* 用法
+最後に実行したコマンドラインの最後の引数をコピーして貼り付ける。
+* 参考
+https://www.commandlinefu.com/commands/view/1551/place-the-argument-of-the-most-recent-command-on-the-shell
