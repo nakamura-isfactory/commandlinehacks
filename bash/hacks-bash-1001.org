@@ -1,0 +1,10 @@
+* command
+#+BEGIN_EXAMPLE
+sudo !!
+#+END_EXAMPLE
+* 用法
+sudo をつけて実行するべきコマンドを sudo をつけないで実行したときに、
+sudo をつけて実行するときに用いる。
+"!!" は最後に実行したコマンドに展開される。
+* 参考
+https://www.commandlinefu.com/commands/view/13/run-the-last-command-as-root

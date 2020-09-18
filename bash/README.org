@@ -1,0 +1,4 @@
+* commandlinehacks/bash
+
+[[hacks-bash-1001.org]]
+
