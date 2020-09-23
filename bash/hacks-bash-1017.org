@@ -1,0 +1,10 @@
+* command
+#+BEGIN_EXAMPLE
+$ sl Ctrl-T
+$ ls
+#+END_EXAMPLE
+* 用法
+Ctrl-T を入力するとカーソル直前にある1文字を、1個前の1文字と交換する。
+* 参考
+https://www.commandlinefu.com/commands/view/1091/switch-2-characters-on-a-command-line.
+

@@ -1,0 +1,14 @@
+* command
+#+BEGIN_EXAMPLE
+$ sed -n 5p file
+$ sed -n 3,6p file
+$ sed 3,7d file
+#+END_EXAMPLE
+* 用法
+sed -n 5p file は5行目だけを出力する。
+sed -n 3,6p file は3から6行目だけを出力する。
+sed 3,7d file は3から7行目以外を出力する。
+* 参考
+https://www.commandlinefu.com/commands/view/3802/to-print-a-specific-line-from-a-file
+https://www.commandlinefu.com/commands/view/9890/print-all-lines-between-two-line-numbers
+https://www.commandlinefu.com/commands/view/8196/print-all-the-lines-between-10-and-20-of-a-file

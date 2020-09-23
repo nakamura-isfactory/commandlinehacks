@@ -1,0 +1,9 @@
+* command
+#+BEGIN_EXAMPLE
+$ watch -n 1 mysqladmin --user=<user> --password=<password> processlist
+#+END_EXAMPLE
+* 用法
+watch コマンドは一定時間毎にコマンドを実行する。
+-n 1 と指定すると1秒間隔。
+* 参考
+https://www.commandlinefu.com/commands/view/768/monitor-the-queries-being-run-by-mysql

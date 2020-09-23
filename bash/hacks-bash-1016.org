@@ -1,0 +1,10 @@
+* command
+#+BEGIN_EXAMPLE
+$ mkdir -p work/{d1,d2}/{src,bin,bak}
+#+END_EXAMPLE
+* 用法
+複数のディレクトリを一度に作る。
+work/{d1,d2} は work/d1 work/d2 に置換される。
+d2/{src,bin,bak} は d2/src d2/{bin d2/bak に置換される。
+* 参考
+https://www.commandlinefu.com/commands/view/877/make-directory-tree

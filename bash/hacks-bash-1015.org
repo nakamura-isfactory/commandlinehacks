@@ -1,0 +1,9 @@
+* command
+#+BEGIN_EXAMPLE
+$ diff <(cd dir1 && find | sort) <(cd dir2 && find | sort)
+#+END_EXAMPLE
+* 用法
+2つのディレクトリを比較する。
+<(COMMAND) はサブシェルを実行してその標準出力をファイルとして開く。
+* 参考
+https://www.commandlinefu.com/commands/view/2251/compare-two-directory-trees.
