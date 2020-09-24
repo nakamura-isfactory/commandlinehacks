@@ -19,6 +19,6 @@ devpts      on  /dev/pts                         type  devpts      (rw,nosuid,no
 tmpfs       on  /run                             type  tmpfs       (rw,nosuid,nodev,mode=755)
 #+END_EXAMPLE
 * 用法
-カンマ区切りのテキストを見やすく成型する。
+column コマンドはカンマ区切りのテキストを見やすく整形する。
 * 参考
 https://www.commandlinefu.com/commands/view/1556/currently-mounted-filesystems-in-nice-layout

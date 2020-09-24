@@ -1,9 +1,16 @@
 * command
-#+BEGIN_EXAMPLE
-$ mv filename.{old,new}
-$ cp filename.csv{,.bak}
-$ cp filename.txt{,_$(date +%F)}
-#+END_EXAMPLE
+- ブレース展開を使うやり方
+  #+BEGIN_EXAMPLE
+  $ mv filename.{old,new}
+  $ cp filename.csv{,.bak}
+  $ cp filename.txt{,_$(date +%F)}
+  #+END_EXAMPLE
+- ブレース展開を使わないやり方
+  #+BEGIN_EXAMPLE
+  $ mv filename.old filename.new
+  $ cp filename.csv filename.csv.bak
+  $ cp filename.txt filename.txt_$(date +%F)
+  #+END_EXAMPLE
 * 用法
 filename.{old,new} は filename.old filename.new に置換される。
 filename.csv{,.bak} は filename.csv filename.csv.bak に置換される。

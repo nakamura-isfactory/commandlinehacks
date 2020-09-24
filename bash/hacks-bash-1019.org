@@ -1,0 +1,13 @@
+* command
+#+BEGIN_EXAMPLE
+$ pwd
+/tmp
+$ cd /var/log
+$ date
+$ cd - # /tmp に戻る。
+#+END_EXAMPLE
+* 用法
+cd - を実行すると cdコマンドで移動する直前のディレクトリに戻る。
+* 参考
+https://uxmilk.jp/27431
+

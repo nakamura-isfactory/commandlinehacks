@@ -12,7 +12,7 @@ $ sudo <Ctrl+Y>
 $ sudo vim /etc/fstab
 #+END_EXAMPLE
 * 用法
-Ctrl+U → コマンドラインにある文字列を全てキルする。
-Ctrl+Y → キルした文字列をヤンクする。
+- Ctrl+U → コマンドラインにある文字列を全てキル(切り取り)する。
+- Ctrl+Y → キルした文字列をヤンク(貼り付け)する。
 * 参考
 https://www.commandlinefu.com/commands/view/6148/type-partial-command-kill-this-command-check-something-you-forgot-yank-the-command-resume-typing.

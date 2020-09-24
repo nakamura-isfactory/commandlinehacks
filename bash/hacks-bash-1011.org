@@ -1,9 +1,10 @@
 * command
 #+BEGIN_EXAMPLE
-$ mkdir /home/foo/doc/bar && cd $_
+$ mkdir -p /home/foo/doc/bar && cd $_
 #+END_EXAMPLE
 * 用法
 ディレクトリを作成して cd する。
 $_ は直前に実行したコマンドラインの最後の引数に置換される。
+mkdir -p オプションはサブディレクトリを全て作る。
 * 参考
 https://www.commandlinefu.com/commands/view/9000/mkdir-cd-into-it-as-single-command

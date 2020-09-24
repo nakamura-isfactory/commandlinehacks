@@ -1,0 +1,12 @@
+* command
+#+BEGIN_EXAMPLE
+$ read -sp "Please input your password: " __pass; echo
+※ パスワード は XXX を参照して入力してください。
+$ curl -u "user:${__pass}" http://example.com
+#+END_EXAMPLE
+* 用法
+read コマンドは標準入力から受け取ったデータを変数に格納する。
+手順書に記してある途中にパスワードが挟んであるコマンドをコピー＆ペーストして実行する際に、
+手順書からのコピー＆ペーストとパスワード入力を切り離したいときに用いる。
+* 参考
+https://qiita.com/ktooi/items/ba156bb1848c31f04949

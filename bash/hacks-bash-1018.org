@@ -1,0 +1,8 @@
+* command
+#+BEGIN_EXAMPLE
+$ echo rm *.txt
+#+END_EXAMPLE
+* 用法
+ワイルドカードを使ってファイルを削除する前に、どのファイルが対象になるかを確認する。
+* 参考
+https://www.commandlinefu.com/commands/view/6901/prevent-accidents-and-test-your-command-with-echo

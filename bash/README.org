@@ -19,4 +19,7 @@ bash を使って効率良くコマンドラインを操作する方法。
 - [[file:hacks-bash-1015.org]]
 - [[file:hacks-bash-1016.org]]
 - [[file:hacks-bash-1017.org]]
+- [[file:hacks-bash-1018.org]]
+- [[file:hacks-bash-1019.org]]
+- [[file:hacks-bash-1020.org]]
 

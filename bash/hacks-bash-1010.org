@@ -1,12 +1,14 @@
 * command
 #+BEGIN_EXAMPLE
+$ pwd
+/
 $ pushd /tmp
 $ pushd /var/log/
-$ popd
-$ popd
+$ popd # /tmp に戻る。
+$ popd # / に戻る。
 #+END_EXAMPLE
 * 用法
-pushd はディレクトリをスタックに追加して cd する。
-popd はディレクトリをスタックから取り出して cd する。
+- pushd はディレクトリをスタックに追加して cd する。
+- popd はディレクトリをスタックから取り出して cd する。
 * 参考
 https://www.commandlinefu.com/commands/view/799/push-your-present-working-directory-to-a-stack-that-you-can-pop-later
