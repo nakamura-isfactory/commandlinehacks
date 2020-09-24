@@ -1,4 +1,22 @@
 * commandlinehacks/bash
 
-[[hacks-bash-1001.org]]
+bash を使って効率良くコマンドラインを操作する方法。
+
+- [[file:hacks-bash-1001.org]]
+- [[file:hacks-bash-1002.org]]
+- [[file:hacks-bash-1003.org]]
+- [[file:hacks-bash-1004.org]]
+- [[file:hacks-bash-1005.org]]
+- [[file:hacks-bash-1006.org]]
+- [[file:hacks-bash-1007.org]]
+- [[file:hacks-bash-1008.org]]
+- [[file:hacks-bash-1009.org]]
+- [[file:hacks-bash-1010.org]]
+- [[file:hacks-bash-1011.org]]
+- [[file:hacks-bash-1012.org]]
+- [[file:hacks-bash-1013.org]]
+- [[file:hacks-bash-1014.org]]
+- [[file:hacks-bash-1015.org]]
+- [[file:hacks-bash-1016.org]]
+- [[file:hacks-bash-1017.org]]
 
